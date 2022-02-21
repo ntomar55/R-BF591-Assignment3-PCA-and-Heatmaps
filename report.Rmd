@@ -119,9 +119,9 @@ figures. Until you've completed all the parts, you may safely leave these
 captions blank.
 
 ```{r code block to create descriptive captions}
-caption_4 <- 'Descriptive Caption for part 4 here'
-caption_5 <- 'Descriptive Caption for part 5 here'
-caption_8 <- 'Descriptive Caption for part 8 here'
+caption_4 <- 'The bar chart represents individual variances of each principal component. The connected dots represent the cumulative variances'
+caption_5 <- 'This is a plot of the true values of PC1 vs PC2. We have also classified the data points according to their subtypes.'
+caption_8 <- 'This is a heatmap of the intesity values of the probes that are significant.'
 ```
 
 ## 4. Plot the variance explained and cumulative variance for the PCs
@@ -141,7 +141,6 @@ ordering vs. numeric ordering.
 ```{r, code block to plot variance explained and cumulative variance explained, fig.cap = caption_4}
 plot_pca_variance(variance_tibble)
 ```
-
 
 ## 5. Biplot of the first two principal components
 As the first two PCs represent the first and second most amounts of variance, it
